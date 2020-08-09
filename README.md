@@ -7,3 +7,7 @@
 
 
 ### work in progresss 
+
+### Resources: 
+
+```Lstm network architect``` : https://colah.github.io/posts/2015-08-Understanding-LSTMs/
