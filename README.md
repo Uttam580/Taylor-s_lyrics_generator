@@ -5,8 +5,33 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Uttam580/Taylor-s_lyrics_generator?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Uttam580/Taylor-s_lyrics_generator?color=red&style=plastic)
 
+## Lyrics generator
 
-### work in progresss 
+### quick demo: 
+
+![demo_gif](https://github.com/Uttam580/Taylor-s_lyrics_generator/blob/master/lstmBatch32Epoch15.gif)
+
+
+### How Does It work?
+
+Make seed lyrics. Feed it to the neural network to generate one character after the seed lyrics, ‘b’.
+I took input char length 100.
+
+input: 'I want to ' -> output 'b'
+
+Append new character to the seed lyrics and remove the very first character.
+
+new input : ' want to b'
+
+Feed the new seed lyrics into the neural network and iterate the above process as many as you want.
+
+'I want to ' -> ' want to b' -> 'want to be' -> .... -> 'ing of pop'
+
+In the end, you might get something like ‘I want to be king of pop’
+ 
+This process is known as teacher forcing: training neural network that uses model output from a prior time step as an input.
+
+
 
 ### Resources: 
 
