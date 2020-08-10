@@ -31,8 +31,11 @@ In the end, you might get something like ‘I want to be king of pop’
  
 This process is known as teacher forcing: training neural network that uses model output from a prior time step as an input.
 
+I trained model for 15 Epoch for batch size 32 , for more accuracy increase the epoch for training (400, 600 etc.)
 
 
 ### Resources: 
 
 ```Lstm network architect``` : https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+https://levelup.gitconnected.com/lyrics-generation-using-lstm-5a5a0bcac4fa
