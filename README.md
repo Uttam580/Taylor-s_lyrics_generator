@@ -39,3 +39,5 @@ I trained model for 15 Epoch for batch size 32 , for more accuracy increase the 
 ```Lstm network architect``` : https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 https://levelup.gitconnected.com/lyrics-generation-using-lstm-5a5a0bcac4fa
+
+https://medium.com/@shivajbd/understanding-input-and-output-shape-in-lstm-keras-c501ee95c65e
